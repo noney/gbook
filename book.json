@@ -1,0 +1,12 @@
+{
+    "title" : "斗米C端WebApp文档",
+    "language" : "zh-hans",
+    "plugins": ["theme-api"
+               ],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark"
+        }
+
+    }
+}
