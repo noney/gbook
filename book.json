@@ -1,5 +1,5 @@
 {
-    "title" : "斗米C端WebApp文档",
+    "title" : "gbook",
     "language" : "zh-hans",
     "plugins": ["theme-api",
                 "-sharing",
