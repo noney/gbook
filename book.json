@@ -1,9 +1,44 @@
 {
     "title" : "斗米C端WebApp文档",
     "language" : "zh-hans",
-    "plugins": ["theme-api"
+    "plugins": ["theme-api",
+                "-sharing",
+                "-search",
+                "-lunr",
+                "search-plus",
+                "splitter",
+                "expandable-chapters-small",
+
+                "-highlight",
+                "prism",
+                "prism-themes",
+
+                "anchor-navigation-ex"
+                
                ],
     "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": true,
+            "mode": "float", 
+            "float": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+                }
+        },
         "theme-api": {
             "theme": "dark"
         }
